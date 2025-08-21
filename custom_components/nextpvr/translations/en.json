@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to NextPVR",
+        "description": "Enter connection details for your NextPVR server.",
+        "data": {
+          "host": "Host",
+          "pin": "PIN",
+          "port": "Port",
+          "ssl": "Use HTTPS"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to NextPVR server.",
+      "unknown": "Unexpected error."
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "NextPVR Options",
+          "description": "Adjust the polling interval (seconds).",
+          "data": {
+            "scan_interval": "Scan Interval (30-3600 seconds)"
+          }
+        }
+      }
+    }
+  }
+}
