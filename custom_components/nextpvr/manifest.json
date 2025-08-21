@@ -4,12 +4,11 @@
   "version": "1.0.0",
   "integration_type": "hub",
   "config_flow": true,
-  "documentation": "https://github.com/breendan/nextpvr-ha",
-  "issue_tracker": "https://github.com/breendan/nextpvr-ha/issues",
+  "documentation": "https://github.com/breendan/ha-nextpvr",
+  "issue_tracker": "https://github.com/breendan/ha-nextpvr/issues",
   "requirements": [],
   "dependencies": [],
   "codeowners": ["@breendan"],
-  "logo": "logo.png",
   "iot_class": "local_polling",
   "loggers": ["custom_components.nextpvr"]
 }
