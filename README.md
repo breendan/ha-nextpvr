@@ -1,10 +1,10 @@
 # NextPVR Home Assistant Integration
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-blue.svg)](https://hacs.xyz/)
-[![Release](https://img.shields.io/github/v/release/breendan/nextpvr-ha?sort=semver)](https://github.com/breendan/nextpvr-ha/releases)
-[![Downloads](https://img.shields.io/github/downloads/breendan/nextpvr-ha/total.svg)](https://github.com/breendan/nextpvr-ha/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/breendan/nextpvr-ha.svg)](https://github.com/breendan/nextpvr-ha/commits)
-[![License](https://img.shields.io/github/license/breendan/nextpvr-ha.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/breendan/nextpvr-ha?sort=semver)](https://github.com/breendan/ha-nextpvr/releases)
+[![Downloads](https://img.shields.io/github/downloads/breendan/nextpvr-ha/total.svg)](https://github.com/breendan/ha-nextpvr/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/breendan/nextpvr-ha.svg)](https://github.com/breendan/ha-nextpvr/commits)
+[![License](https://img.shields.io/github/license/breendan/ha-nextpvr.svg)](LICENSE)
 
 Monitor NextPVR tuners in Home Assistant. Provides a single binary sensor indicating whether any tuner is in use and one media player entity per tuner with a cleaned title for live TV or recordings.
 
@@ -39,6 +39,15 @@ Fields:
 - Use HTTPS (enable if served over TLS)
 
 Adjust polling interval (30–3600s, default 120s) via the integration’s Options.
+
+## Updating
+1. Bump `version` in `manifest.json`.
+2. Update CHANGELOG.
+3. Tag release (e.g. `v1.0.1`).
+4. HACS will offer update.
+
+## License
+MIT – see [LICENSE](LICENSE).
 
 ## Attribution
 Not affiliated with the NextPVR project. NextPVR © respective owners.
