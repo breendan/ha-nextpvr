@@ -1,9 +1,9 @@
 # NextPVR Home Assistant Integration
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-blue.svg)](https://hacs.xyz/)
-[![Release](https://img.shields.io/github/v/release/breendan/nextpvr-ha?sort=semver)](https://github.com/breendan/ha-nextpvr/releases)
-[![Downloads](https://img.shields.io/github/downloads/breendan/nextpvr-ha/total.svg)](https://github.com/breendan/ha-nextpvr/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/breendan/nextpvr-ha.svg)](https://github.com/breendan/ha-nextpvr/commits)
+[![Release](https://img.shields.io/github/v/release/breendan/ha-nextpvr?sort=semver)](https://github.com/breendan/ha-nextpvr/releases)
+[![Downloads](https://img.shields.io/github/downloads/breendan/ha-nextpvr/total.svg)](https://github.com/breendan/ha-nextpvr/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/breendan/ha-nextpvr.svg)](https://github.com/breendan/ha-nextpvr/commits)
 [![License](https://img.shields.io/github/license/breendan/ha-nextpvr.svg)](LICENSE)
 
 Monitor NextPVR tuners in Home Assistant. Provides a single binary sensor indicating whether any tuner is in use and one media player entity per tuner with a cleaned title for live TV or recordings.
