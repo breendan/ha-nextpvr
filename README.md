@@ -21,7 +21,7 @@ Media player attributes: `oid`, `status`, `path`.
 
 ### HACS (Custom Repository)
 1. HACS → Integrations → (⋮) Custom repositories.
-2. Add `https://github.com/breendan/nextpvr-ha` (Category: Integration).
+2. Add `https://github.com/breendan/ha-nextpvr` (Category: Integration).
 3. Install “NextPVR Integration”.
 4. Restart Home Assistant.
 
