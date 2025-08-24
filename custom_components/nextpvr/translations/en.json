@@ -15,15 +15,15 @@
     "error": {
       "cannot_connect": "Cannot connect to NextPVR server.",
       "unknown": "Unexpected error."
-    },
-    "options": {
-      "step": {
-        "init": {
-          "title": "NextPVR Options",
-          "description": "Adjust the polling interval (seconds).",
-          "data": {
-            "scan_interval": "Scan Interval (30-3600 seconds)"
-          }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "NextPVR Options",
+        "description": "Adjust the polling interval (seconds).",
+        "data": {
+          "scan_interval": "Scan Interval (30-3600 seconds)"
         }
       }
     }
