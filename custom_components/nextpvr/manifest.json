@@ -1,14 +1,14 @@
 {
   "domain": "nextpvr",
   "name": "NextPVR Integration",
-  "version": "1.0.0",
-  "integration_type": "hub",
-  "config_flow": true,
-  "documentation": "https://github.com/breendan/ha-nextpvr",
-  "issue_tracker": "https://github.com/breendan/ha-nextpvr/issues",
-  "requirements": [],
-  "dependencies": [],
   "codeowners": ["@breendan"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/breendan/ha-nextpvr",
+  "integration_type": "hub",
   "iot_class": "local_polling",
-  "loggers": ["custom_components.nextpvr"]
+  "issue_tracker": "https://github.com/breendan/ha-nextpvr/issues",
+  "loggers": ["custom_components.nextpvr"],
+  "requirements": [],
+  "version": "1.0.0"
 }
